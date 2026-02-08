@@ -1,4 +1,4 @@
-package first_java_program;
+package firstjavaprogram;
 
 import java.util.Scanner;
 

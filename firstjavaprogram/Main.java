@@ -1,4 +1,4 @@
-package first_java_program;
+package firstjavaprogram;
 
 public class Main {
   public static void main(String[] args) {
