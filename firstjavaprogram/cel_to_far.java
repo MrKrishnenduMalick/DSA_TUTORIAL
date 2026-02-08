@@ -1,0 +1,16 @@
+package firstjavaprogram;
+
+import java.util.Scanner;
+
+public class cel_to_far {
+  public static void main(String[] args) {
+  Scanner in = new Scanner(System.in);
+  System.out.println("Enter the temp in C :");
+  float tempC = in.nextFloat();
+  
+  float tempF = (tempC * 9/5) +32;
+  System.out.println(tempF);
+  }
+  
+
+}
