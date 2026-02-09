@@ -48,12 +48,12 @@ public class Loops {
       }while (condition);
       */ 
 
-      int n = 1;
+      int n1 = 1;
       
       do{
-        System.out.println(n);
-        n++;
+        System.out.println(n1);
+        n1++;
 
-      }while(n !=1);
+      }while(n1 !=1);
   }
 }
