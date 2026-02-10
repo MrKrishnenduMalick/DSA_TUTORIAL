@@ -5,8 +5,26 @@ public class largest {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
 
-    int num1 = in.nextInt();
-    int num2 = in.nextInt();
-    int num3 = in.nextInt();
+    int a = in.nextInt();
+    int b = in.nextInt();
+    int c = in.nextInt();
+
+    // @.Find the largest number of this 3 numbers 
+
+    // int max = a;
+    // if (b > max)
+    //   {
+    //     max = b;
+    //   } 
+    //   if (c > max)
+    //   {
+    //     max = c;
+    //   }
+    //   System.out.println(max);
+
+
+      int Max = Math.max(c,Math.max(a,b));
+      System.out.println((Max));
+
   }
 }
