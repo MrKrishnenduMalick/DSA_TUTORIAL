@@ -15,7 +15,7 @@ public class AL{
 
     // add elements in between 
 
-    list .add(1,1);
+    list.add(1,1);
     System.out.println(list);
 
     // set element
